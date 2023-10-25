@@ -1,0 +1,66 @@
+body {
+    background-color: blanchedalmond;
+    text-align: center;
+}
+
+.regresar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 15px 20px;
+    background-color: violet;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 15%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+    
+
+h1 {
+    color: violet;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 350%;
+    
+}  
+
+
+p{
+    font-size: 150%;
+    font-family: fantasy;
+}
+
+label{
+    
+    font-size: 150%;
+    font-family: fantasy;
+}
+
+
+#calcularboton {
+    background-color: pink;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 150%;
+    border-radius: 15%;
+}
+
+input{
+    font-size: 125%;
+    background-color: cyan;
+    color: blue;
+    font-family: fantasy;
+
+}
+
+#result {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blue;
+    font-size: 150%;
+  
+}

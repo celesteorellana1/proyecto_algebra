@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  max-width: 100%;
+  overflow-x: hidden;
+  
+}
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(5, 3, 5, 0.938);
+    color:white;
+    
+  }
+  
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+  }
+  
+  .brand{
+    margin-top: -15px;
+    font-size: 22px;
+  }
+  
+  #inicio{
+    transition: transform 0.5s ease;
+  }
+  
+  #inicio:hover{
+    transform: translateY(30px) scaleY(1);
+  }
+  
+  
+  .brand span{
+    color: rgb(255, 0, 98);
+  }
+  
+  .menu {
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+  }
+  
+  .menu li {
+    list-style: none;
+  }
+  
+  .menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+  }
+  
+  .menu .active{
+    color: rgba(255, 0, 174, 0.729);
+  }
+  
+  .menu a:hover{
+  background-color: rgb(255, 0, 98);
+  color:black;
+  transition: ease-in .3s;
+  }
+
+  .main{
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+  }
+  
+  .info{
+    margin-left: -40px;
+    margin-top: -50px;
+    text-align: justify;
+  
+  }
+
+.inversa{
+  padding: 15px 20px;
+  background-color: #ee2162;;
+  color: white;
+  border: none;
+  border-radius: 25%;
+  cursor: pointer;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 10px 10px 40px 10px;
+  transition: transform 0.2s ease;
+}
+
+.inversa:active{
+  transform: translateY(4px);
+}
+
+.multiplicacion{
+  padding: 15px 30px;
+  background-color: #ee2162;
+  color: white;
+  border: none;
+  border-radius: 25%;
+  cursor: pointer;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 10px 10px 40px 10px;
+  transition: transform 0.2s ease;
+}
+
+.multiplicacion:active{
+  transform: translateY(4px);
+}
+
+.ecuacion{
+  padding: 15px 20px;
+  background-color: #ee2162;;
+  color: white;
+  border: none;
+  border-radius: 25%;
+  cursor: pointer;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 10px 10px 20px 10px;
+  transition: transform 0.2s ease;
+}
+
+.ecuacion:active{
+  transform: translateY(4px);
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.imagen{
+  width: 250px;
+  margin-left: 800px;
+  margin-top: -100px;
+  margin-right: -50px;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sistemas de Ecuaciones</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.7.2/math.min.js"></script>
+
+</head>
+<body>
+    <button type="button" class="regresar" ><a href="index.html">Volver a inicio</a></button>
+    <div class="principal">
+
+    <h1>Sistema de Ecuaciones Lineales</h1>
+    <form id="equationForm">
+        <div class="equation">
+            <input type="text" name="a11" placeholder="Coeficiente de x1">
+            <span>x1 +</span>
+            <input type="text" name="a12" placeholder="Coeficiente de x2">
+            <span>x2 +</span>
+            <input type="text" name="a13" placeholder="Coeficiente de x3">
+            <span>x3 =</span>
+            <input type="text" name="b1" placeholder="Termino independiente">
+        </div>
+        <div class="equation">
+            <input type="text" name="a21" placeholder="Coeficiente de x1">
+            <span>x1 +</span>
+            <input type="text" name="a22" placeholder="Coeficiente de x2">
+            <span>x2 +</span>
+            <input type="text" name="a23" placeholder="Coeficiente de x3">
+            <span>x3 =</span>
+            <input type="text" name="b2" placeholder="Termino independiente">
+        </div>
+        <div class="equation">
+            <input type="text" name="a31" placeholder="Coeficiente de x1">
+            <span>x1 +</span>
+            <input type="text" name="a32" placeholder="Coeficiente de x2">
+            <span>x2 +</span>
+            <input type="text" name="a33" placeholder="Coeficiente de x3">
+            <span>x3 =</span>
+            <input type="text" name="b3" placeholder="Termino independiente">
+        </div>
+
+        <button type="button" id="solveCramer">Resolver con Cramer</button>
+        <button type="button" id="solveGaussJordan">Resolver con Gauss-Jordan</button>
+        <button type="button" id="deleteAll">Eliminar Todo</button>
+    </form>
+    
+    <div id="result">
+        <!-- Aquí se mostrará el resultado -->
+    </div>
+    <button type="grafica" class="Graficador" ><a href="graficas/sistema de ecuaciones.html">Graficador</a></button>
+    <script src="proyecto.js"></script>
+    </div>
+</body>
+</html>
